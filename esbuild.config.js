@@ -8,6 +8,8 @@ esbuildServe(
     entryPoints: ["src/index.js"],
     bundle: true,
     outfile: "dist/main.js",
+    port: "3001",
+    
   },
   { root: "dist" }
 );
