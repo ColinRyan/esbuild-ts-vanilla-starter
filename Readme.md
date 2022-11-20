@@ -1,9 +1,9 @@
-= Starter repo for esbuild and vanilla JS =
+# Starter repo for esbuild and vanilla JS 
 
-== What is it? ==
+## What is it? 
 A very bare bones starter javascript using esbuild.
 
-== How to use ==
+### How to use 
 
 ```
 git clone  git@github.com:ColinRyan/esbuild-starter.git

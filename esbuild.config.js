@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import esbuildServe from "esbuild-serve";
+import open from 'open'
 
 esbuildServe(
   {
@@ -8,8 +9,14 @@ esbuildServe(
     entryPoints: ["src/index.js"],
     bundle: true,
     outfile: "dist/main.js",
-    port: "3001",
     
   },
-  { root: "dist" }
-);
+  { 
+    root: "dist",
+    port: "3001",
+  }
+).then((res) => {
+  open("http://localhost:3001")
+    
+})
+
