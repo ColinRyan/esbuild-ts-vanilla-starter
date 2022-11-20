@@ -1,0 +1,17 @@
+{
+  "name": "esbuild-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild --bundle src/index.js --outfile=dist/main.js",
+    "start": "esbuild --bundle src/index.js --outfile=dist/main.js --serve=3001"
+  },
+  "keywords": [],
+  "author": "Colin Ryan",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.15.14"
+  }
+}
