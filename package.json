@@ -3,15 +3,17 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild --bundle src/index.js --outfile=dist/main.js",
-    "start": "esbuild --bundle src/index.js --outfile=dist/main.js --serve=3001"
+    "build": "node esbuild.config.js",
+    "start": "node esbuild.config.js -w"
   },
   "keywords": [],
   "author": "Colin Ryan",
   "license": "MIT",
   "devDependencies": {
-    "esbuild": "^0.15.14"
+    "esbuild": "^0.15.14",
+    "esbuild-serve": "^1.0.1"
   }
 }
