@@ -1,4 +1,4 @@
-# Starter repo for esbuild and vanilla JS 
+# Starter repo for esbuild and vanilla TS
 
 ## What is it? 
 A very bare bones starter javascript using esbuild.
