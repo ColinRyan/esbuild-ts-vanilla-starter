@@ -6,7 +6,7 @@ A very bare bones starter template for typescript using esbuild.
 ### How to use 
 
 ```
-git clone  git@github.com:ColinRyan/esbuild-js-vanilla-starter.git
+git clone  git@github.com:ColinRyan/esbuild-ts-vanilla-starter.git
 rm -rf .git
 npm ci
 npm start
