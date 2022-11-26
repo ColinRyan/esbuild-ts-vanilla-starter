@@ -1,7 +1,7 @@
 # Starter repo for esbuild and vanilla TS
 
 ## What is it? 
-A very bare bones starter javascript using esbuild.
+A very bare bones starter template for typescript using esbuild.
 
 ### How to use 
 
