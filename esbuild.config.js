@@ -6,7 +6,7 @@ import open from 'open'
 esbuildServe(
   {
     logLevel: "info",
-    entryPoints: ["src/index.js"],
+    entryPoints: ["src/index.ts"],
     bundle: true,
     outfile: "dist/main.js",
     
